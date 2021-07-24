@@ -1,0 +1,183 @@
+#duascolunas {
+    overflow: auto;
+    background: gray;
+}
+
+#colunaEsquerda {
+    width: 20%;
+    margin: 5px;
+    padding: 1em;
+    background: #8fcaca;
+    text-align: center;
+}
+
+#colunaDireita {
+    width: 70%;
+    margin: 10px;
+    padding: 1em;
+ 
+}
+
+#colunaEsquerda { float: left; }
+#colunaDireita {float:left; }
+
+header a {
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    margin-right: 8px;
+   
+}
+
+body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #8fcaca;
+}
+
+header {
+    overflow: hidden;
+    background-color: #8fcaca;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    margin-right: 8px;
+    align-items: center;
+}
+
+header img {
+    width:180px;
+          
+}
+
+
+
+.input input {
+    height: 47px;
+    border-radius: 3px;
+    display: block;
+    width: 100%;
+    border: 1px solid #a7a6a6;
+    background-color: #fff;
+    margin-bottom: 7px;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btnred colunaEsquerda{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 19px;
+    color: #fff;
+    background: #000;
+    font-weight: 500;
+    border-radius: 23px;
+    border: none;
+}
+
+.btnredd {
+    display: inline-block;
+    width: 100%;
+    justify-content:space-between;
+    font-size: 19px;
+    color: #fff;
+    background: #000;
+    font-weight: 500;
+    border-radius: 23px;
+    border: none;
+    padding: 15px;
+    
+}
+
+main{
+    background-color: #d9e2ee ;
+}
+main .container{
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+main .container .column--esquerda{
+    padding: 30px;
+}
+main .row{
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+main  .column--esquerda{
+    flex-basis: 34%;
+   
+}
+main .column--direita{
+     flex-basis: 40%;
+     background-color: #fff;
+}
+
+section{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d9e2ee;
+
+}
+
+
+footer {
+    width: 100%;
+    background-color: #8fcaca;
+    color: #000;
+    text-align: center;
+    padding: 5px;
+}
+
+.redesSociais_lista {
+    text-align: center;
+}
+
+.redesSociais_lista_item {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.redesSociais_lista_item img {
+    width: 100%;
+    max-width: 20px;
+}
+
+footer a {
+    font-weight: bold;
+    text-decoration: none;
+   }
+
+footer a:visited {
+    color: #000;
+}
+
+footer a:link {
+    color: #000;
+}
+
+footer h4 {
+    font-size: 20px;
+}
