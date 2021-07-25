@@ -1,5 +1,5 @@
 {
-  "name": "react-hooks",
+  "name": "gestorcadastros",
   "version": "0.1.1",
   "private": true,
   "dependencies": {
@@ -26,6 +26,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "homepage": "https://taniarascia.github.io/react-hooks"
+  ]
+  
 }
