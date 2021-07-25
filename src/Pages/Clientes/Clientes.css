@@ -1,0 +1,16 @@
+.gridArea {
+  grid-area: gridArea;
+  display: flex;
+  justify-content: center;
+}
+
+.cntConteudo {
+  width: 80%;
+}
+
+.cntConteudo button {
+  background: #16A8DC;
+  color: #fff;
+  border: 1px solid #16A8DC;
+  margin-right: 5px;
+}
