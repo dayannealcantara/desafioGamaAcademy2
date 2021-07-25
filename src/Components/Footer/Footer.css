@@ -1,0 +1,46 @@
+.footer {
+  grid-area: footer;
+}
+
+footer {
+  width: 100%;
+  background-color: #16A8DC;
+  color: #000;
+  text-align: center;
+  padding: 5px;
+}
+
+.redesSociais_lista {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+}
+
+.redesSociais_lista_item {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+
+.redesSociais_lista img {
+
+  max-width: 20px;
+}
+
+footer a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: #000;
+}
+
+footer a:link {
+  color: #000;
+}
+
+footer h4 {
+  font-size: 20px;
+}
