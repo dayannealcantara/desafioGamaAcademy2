@@ -1,0 +1,52 @@
+.sidebar {
+  grid-area: sidebar;
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  box-shadow: 0.995225px 0px 9.95225px rgba(0, 0, 0, 0.15);
+
+}
+
+
+
+
+
+.menuList {
+  list-style: none;
+  line-height: 1.25;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  margin: 0;
+}
+
+.menuList a {
+  width: 100%;
+  height: 76.13px;
+  border-radius: 2px;
+  color: #4a4a4a;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5em .75em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.menuList p {
+  margin: 0;
+  padding-left: 8%
+}
+
+.menuList img {
+  width: 31.57px;
+  height: 31.57px;
+}
+
+.menuList a:hover {
+  background: #f0eded;
+  transition: 4ms;
+}
